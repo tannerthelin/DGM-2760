@@ -1,0 +1,68 @@
+body {
+	font-family: 'Yantramanav', sans-serif;
+	max-width: 1150px;
+	margin: auto;
+	margin-top: 0px;
+	text-align: center;
+	overflow: visible;
+}
+
+.header {
+	background-image: url("../assets/images/homepage-icons.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	margin-bottom: 0px;
+}
+
+.content {
+	max-width: 700px;
+	margin: auto;
+	padding-top: 60px;
+	border-top: 1px solid #E6E6E6;
+}
+
+h1 {
+	font-family: 'Fjalla One', sans-serif;
+	text-transform: uppercase;
+	color: #2e3c40;
+	font-size: 40px;
+}
+
+.header h1{
+	font-size: 80px;
+}
+
+h2 {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 16px;
+}
+
+.footerholder {
+	margin: auto;
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    max-width: 1150px;
+}
+
+.footer {
+    background: none repeat scroll 0 0 white;
+    height: 40px;
+    margin: auto;
+    width: 400px;
+    color: #8CA2B5;
+}
+
+li {
+	list-style: none;
+	line-height: 30px;
+}
+
+ul {
+	padding: 0px;
+}
