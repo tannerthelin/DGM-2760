@@ -58,6 +58,10 @@ h2 {
     color: #8CA2B5;
 }
 
+.content {
+	margin-bottom: 200px;
+}
+
 li {
 	list-style: none;
 	line-height: 30px;
