@@ -60,22 +60,37 @@ b.onclick  = function() {
 
 // Remove First Item
 c.onclick = function () {
-	treeArray.shift();
-	displayArrayItems();
+	if (treeArray.length < 1) {
+		document.getElementById("messages").innerHTML = "There are not enough items in this list.";
+	}
+	else{
+		treeArray.shift();
+		displayArrayItems();
+	}
 }
 
 
 // Remove Second Item
 d.onclick = function () {
-	treeArray.splice(1, 1);
-	displayArrayItems();
+	if (treeArray.length < 2) {
+		document.getElementById("messages").innerHTML = "There are not enough items in this list.";
+	}
+	else{
+		treeArray.splice(1, 1);
+		displayArrayItems();
+	}	
 }
 
 
 // Remove last item
 e.onclick = function () {
-	treeArray.pop();
-	displayArrayItems();
+	if (treeArray.length < 1) {
+		document.getElementById("messages").innerHTML = "There are not enough items in this list.";
+	}
+	else{
+		treeArray.pop();
+		displayArrayItems();
+	}	
 }
 
 
