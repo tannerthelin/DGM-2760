@@ -71,7 +71,7 @@ ul {
 	padding: 0px;
 }
 
-input[type~="number"] {
+#numberInput {
 	padding: 25px 30px;
 	border-radius: 3px;
 	border: 1px solid #CEDAE3;
@@ -83,7 +83,7 @@ input[type~="number"] {
 	color: #2e3c40;
 }
 
-input[type~="number"] {
+#numberInput {
     outline:none;
     border-color: #8CA2B5;
 }
@@ -95,11 +95,11 @@ input::-webkit-inner-spin-button {
     margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
 }
 
-input[type~="submit"] {
+#submitButton {
 	padding: 25px 30px;
 	border-radius: 3px;
 	background-color: #00CF67;
-	color: white;
+	color: white !important;
 	font-family: 'Yantramanav', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -109,16 +109,16 @@ input[type~="submit"] {
 	transition: ease .25s;
 }
 
-input[type~="submit"]:hover {
+#submitButton:hover {
 	background-color: #11E379;
 	cursor: pointer;
 }
 
-input[type~="submit"]:focus {
+#submitButton:focus {
     outline:none;
 }
 
-input[type~="submit"]:active{
+#submitButton:active{
     background-color: #0DAF5D;
 }
 
