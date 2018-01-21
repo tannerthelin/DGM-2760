@@ -1,0 +1,108 @@
+body {
+	padding: 0px 10%;
+}
+
+.content {
+	max-width: 1200px;
+	}
+
+.content-container {
+	display: flex;
+	text-align: left;
+}
+
+.left-column {
+	margin-right: 100px;
+	width: 1000px;
+	max-width: 50%;
+}
+
+.right-column {
+	width: 100%;
+}
+
+#displayTrees {
+	padding: 25px 30px;
+	background-color: #F7F7F8;
+	border: none;
+	border-radius: 4px;
+	line-height: 30px;
+}
+
+#messages {
+	padding: 25px 30px;
+	border: 1px solid #E7E7EC;
+	border-radius: 4px;
+	color: #8CA2B5;;
+}
+
+button {
+	margin-bottom: 12px;
+	width: 300px;
+	padding: 10px 20px;
+	border-radius: 3px;
+	background-color: #00CF67;
+	color: white !important;
+	font-family: 'Yantramanav', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 16px;
+	border: none;
+	transition: ease .25s;
+	text-align: left;
+	outline: none;
+}
+
+button:hover {
+	background-color: #11E379;
+	cursor: pointer;
+}
+
+button:active {
+	background-color: #0DAF5D;
+}
+
+.remove-button {
+	background-color: #FF4B54
+}
+
+.remove-button:hover {
+	background-color: #FF757B;
+}
+
+.remove-button:active {
+	background-color: #E2343C;
+}
+
+.sort {
+	background-color: #2E9DE3;
+}
+
+.sort:hover {
+	background-color: #48B5FB;
+}
+
+.sort:active {
+	background-color: #1F84C3;
+}
+
+.message-button {
+	background-color: #ECA735
+}
+
+.message-button:hover {
+	background-color: #F9B94F;
+}
+
+.message-button:active {
+	background-color: #DF961F;
+}
+
+
+
+
+
+
+
+
+
