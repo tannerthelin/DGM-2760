@@ -46,7 +46,7 @@ var urlSentence = "The URL of this page is <br>"+ myURL;
 document.getElementById("page-url").innerHTML = urlSentence;
 
 // Add document Title to page
-var myTitle = document.Title;
+var myTitle = document.title;
 
 var titleSentence = "The Title of this page is <br>"+ myTitle;
 
