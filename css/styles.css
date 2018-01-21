@@ -70,3 +70,68 @@ li {
 ul {
 	padding: 0px;
 }
+
+input[type~="number"] {
+	padding: 25px 30px;
+	border-radius: 3px;
+	border: 1px solid #CEDAE3;
+	font-family: 'Yantramanav', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 16px;
+	width: 200px;
+	color: #2e3c40;
+}
+
+input[type~="number"] {
+    outline:none;
+    border-color: #8CA2B5;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type~="submit"] {
+	padding: 25px 30px;
+	border-radius: 3px;
+	background-color: #00CF67;
+	color: white;
+	font-family: 'Yantramanav', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 16px;
+	width: 150px;
+	border: none;
+	transition: ease .25s;
+}
+
+input[type~="submit"]:hover {
+	background-color: #11E379;
+	cursor: pointer;
+}
+
+input[type~="submit"]:focus {
+    outline:none;
+}
+
+input[type~="submit"]:active{
+    background-color: #0DAF5D;
+}
+
+#message {
+	color: red;
+	margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+

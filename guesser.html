@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>DGM 2760 - Number Guesser</title>
+		<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Yantramanav:300" rel="stylesheet">
+		<link href="css/styles.css" rel="stylesheet">
+	</head>
+	<body onresize="MyWindowResize()">
+  
+		<div class="header">
+			<h1 id="company-name">Guessing Game</h1>
+			<h2 id="company-slogan">&quot;Creating a game where the user guesses a random number&quot;</h2>
+		</div>
+
+		<div class="content">
+			<h1>High-Low Guesser</h1>
+			<h2>What I learned:</h2>
+			<ul>
+				<li>How to work with inputs in Javascript</li>
+				<li>Creating a new element and appending it somewhere in the HTML</li>
+				<li>Switch statements -- need to do more practicing with these</li>
+				<li>Generating a random number with Javascript</li>
+				<li>Changing HTML attricutes with Javascript (specifically, for an image)</li>
+
+			</ul>
+			<br>
+			<h2>Instructions:</h2>
+			<p>In this game, you try to guess a number between 1 and 15 in as few tries as possible. You will be awarded a ribbon for your skills. Good luck to you. If you would like to play again, refresh the page.</p>
+
+			<br>
+			<input id="numberInput" type="number" placeholder="Guess a number..." onfocus="this.placeholder = ''">
+			<input type="Submit" value="Submit" onclick="SubmitInput();">
+			<br>
+			<div id="message"></div>
+			<div id="randomNum"></div>
+
+			<h2>Times Submitted:</h2>
+			<div id="times-submitted"></div>
+
+			<br><br>
+			<h2>Award:</h2>
+			<div id="award-message">You haven't won anything yet.</div>
+			<br>
+			<div id="image-here"></div>
+		</div>
+
+
+		<div class="footerholder">
+			<div class="footer">
+  				<p>Designed and developed by Tanner Thelin for DGM 2760.</p>
+			</div>
+		</div>
+
+
+
+	</body>
+	<script type="text/javascript" src="js/number-guesser.js"></script>
+</html>
+
+
+
+
