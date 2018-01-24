@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>DGM 2760 - Nonsense Story</title>
+		<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Yantramanav:300" rel="stylesheet">
+		<link href="css/styles.css" rel="stylesheet">
+		<link href="css/guesser-styles.css" rel="stylesheet">
+		<link href="css/pizza-styles.css" rel="stylesheet">
+	</head>
+	<body>
+  
+		<div class="header">
+			<h1 id="company-name">Javascript Objects</h1>
+			<h2 id="company-slogan">&quot;Object literals, which know stuff and can do stuff&quot;</h2>
+		</div>
+
+		<div class="content">
+			<div class="content-container">
+				<div class="left-column">
+					<h1>Creating a Pizza</h1>
+					<h2>What I learned:</h2>
+					<ul>
+						<li>Create javascript objects</li>
+						<li>Create methods within javascript objects.</li>
+						<li>Create properties for javascript objects</li>
+						<li>Edit object properties from the HTML</li>
+
+					</ul>
+					<br><br>
+					<h2>Crust Options</h2>
+					<button id="thinCrust" onclick= "pizza.crust = 'thin'; pizza.flour = '1 cup';" >Thin Crust</button>
+					<button id="thickCrust" onclick= "pizza.crust = 'thick'; pizza.flour = '4 cups';" >Deep-Dish</button>
+
+					<br><br>
+					<h2>Topping Options</h2>
+					<button id="cheeseButton" onclick= "pizza.toppings = 'cheese'" >Cheese Only</button>
+					<button id="PepperoniButton" onclick= "pizza.toppings = 'cheese and pepperoni'" >Cheese and Pepperoni</button>
+
+					<br><br>
+					<h2>Size Options</h2>
+					<button id="smallButton" onclick= "pizza.size = 'small'; pizza.toppingAmount = '1lb';" >Small</button>
+					<button id="largeButton" onclick= "pizza.size = 'large'; pizza.toppingAmount = '4lbs';" >Large</button>
+
+					<br><br><br><br>
+					<button class="submit" id="buildPizza"  onclick="pizza.buildPizza()">Build Pizza</button>
+					<button class="submit" id="shoppingList" onclick="pizza.shoppingList()">Create Shopping List</button>
+
+				</div>
+
+			<div class="right-column">
+				<h2>Messages to the user:</h2>
+					<div id="textArea">Fill out the forms to generate a story.</div>
+			</div>
+		</div>
+
+
+		<div class="footerholder">
+			<div class="footer">
+  				<p>Designed and developed by Tanner Thelin for DGM 2760.</p>
+			</div>
+		</div>
+
+
+
+	</body>
+	<script type="text/javascript" src="js/pizza.js"></script>
+</html>
+
+
+
+
